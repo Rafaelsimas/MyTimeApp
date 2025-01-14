@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --especial-color: rgb(203, 230, 203);
+  --text: rgb(117, 117, 117);
+}
+
+.display-hidden {
+  display: none;
+}
+
+.container-app {
+  text-align: center;
+}
+
+.container-app .msg {
+  margin-top: 20px;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/Design\ sem\ nome.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.box-alfa {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-alfa .title-app-login {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+.box-alfa p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.box-alfa input {
+  margin-bottom: 10px;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--especial-color);
+}
+.box-alfa button {
+  background-color: var(--especial-color);
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  padding: 1rem;
+}
+.box-alfa .dev {
+  font-size: 0.7rem;
+  color: var(--text);
+  margin-top: 30px;
+}
+
+.box-alfa .dev strong {
+  color: black;
+}
+
+/* --------------------app-------------------- */
+.display-top {
+  /* background-color: var(--especial-color); */
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-top p {
+  font-size: 1.5rem;
+  color: var(--text);
+  text-align: center;
+}
+
+.display-top p strong {
+  color: black;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  border-radius: 8px;
+  margin-inline: auto;
+  height: 31vh;
+  /*   margin-top: -50px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+}
+
+form input {
+  padding: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+
+form select {
+  padding: 0.5rem;
+  margin-bottom: 30px;
+  border: none;
+}
+
+form button {
+  padding: 0.5rem;
+  margin-bottom: 30px;
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+}
