@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>MyTimeApp</title>
+  </head>
+  <body>
+    <div class="box-login">
+      <div class="container-login">
+        <div class="box-alfa">
+          <div class="title-app-login poppins-extrabold">MyTimeApp</div>
+          <p class="poppins-regular">Calcule sua Hora Trabalhada</p>
+          <input type="text" placeholder="Entre com seu nome" id="nome" />
+          <button onclick="login()">Entrar</button>
+          <div class="dev poppins-medium">
+            Desenvolvido por <strong>Rafael Simas</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-app display-hidden">
+      <div class="container-app">
+        <div class="display-top">
+          <p class="poppins-semibold">
+            Seja bem vindo(a), <br />
+            <strong id="usuarioLogado"></strong>!
+          </p>
+        </div>
+        <form>
+          <input
+            id="valorMes"
+            type="text"
+            placeholder="Informe o seu salário mensal"
+          />
+
+          <select id="pet-select">
+            <option>--Quantos dias você trabalha--</option>
+            <option value="1">1 Dia na semana</option>
+            <option value="2">2 Dias na semana</option>
+            <option value="3">3 Dias na semana</option>
+            <option value="4">4 Dias na semana</option>
+            <option value="5">5 Dias na semana</option>
+            <option value="6">6 Dias na semana</option>
+            <option value="7">7 Dias na semana</option>
+          </select>
+          <button class="btn">Calcular</button>
+        </form>
+
+        <div class="msg poppins-medium"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
