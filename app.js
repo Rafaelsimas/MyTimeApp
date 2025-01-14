@@ -47,7 +47,7 @@ btn.addEventListener("click", (e) => {
     resultado = valorMensal / 168
   }
 
-  msg.innerHTML = `<strong>${nome}</strong> sua hora custa R${resultado.toFixed(
+  msg.innerHTML = `<strong>${nome}</strong> sua hora custa R$${resultado.toFixed(
     2
   )}`
 })
