@@ -125,6 +125,7 @@ form input {
 }
 
 form select {
+  background: none;
   padding: 0.5rem;
   margin-bottom: 30px;
   border: none;
